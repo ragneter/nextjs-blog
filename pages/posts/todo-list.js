@@ -10,15 +10,9 @@ export default function TodoList() {
       <Head>
         <title>TODO</title>
       </Head>
-      <h1>My TODO list:</h1>
+      <TodoApp />
 
-      ReactDOM.render(
-      <React.StrictMode>
-        <TodoApp />
-      </React.StrictMode>
-      );
-
-      <p>You also can create a fantastic TODO list just like this one by following <a href="https://www.youtube.com/watch?v=e_ZibOe77yo">this</a> tutorial: </p>
+      <p>PS! You also can create a fantastic TODO list just like this one by following <a href="https://www.youtube.com/watch?v=e_ZibOe77yo">this</a> tutorial.</p>
     </Layout>
   )
 }
